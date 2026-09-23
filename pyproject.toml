@@ -1,0 +1,29 @@
+[project]
+name = "multi-agent-researcher"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "chromadb>=1.5.9",
+    "ddgs>=9.16.0",
+    "duckduckgo-search>=8.1.1",
+    "fonttools>=4.65.0",
+    "langchain>=1.4.0",
+    "langchain-chroma>=1.1.0",
+    "langchain-classic>=1.0.8",
+    "langchain-community>=0.4.2",
+    "langchain-core>=1.6.3",
+    "langchain-huggingface>=1.2.2",
+    "langchain-openai>=1.6.2",
+    "langgraph>=1.2.11",
+    "langgraph-checkpoint-sqlite>=3.1.1",
+    "pdfplumber>=0.11.10",
+    "pypdf>=6.19.0",
+    "python-docx>=1.2.0",
+    "python-dotenv>=1.2.3",
+    "sentence-transformers>=6.0.1",
+    "tabulate>=0.10.0",
+    "tavily-python>=0.8.3",
+    "uuid>=1.30",
+]
